@@ -1,0 +1,222 @@
+body{
+    background-color: #ffffff;
+    font-family: Footlight MT Light;
+    color: #3a3a3a;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+  }
+    
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+    
+  li a {
+    display: block;
+    color: #111111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+    
+  li a:hover:not(.active) {
+    color: #71a8bb;
+  }
+
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+
+  }
+/* beranda */
+.beranda  {
+    margin-top: 150px;
+    max-width: 100%;
+    height: auto;
+  }
+
+.judul{
+    text-align: center;
+    margin: 10px 50px;
+    margin-left: 130px;
+  }
+.wm {
+    text-align: center;
+    word-spacing: 15px;
+  }
+
+.content1 {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+  }
+
+.text1 {
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.img-bulat { 
+    width:60%;
+    height: auto;
+    float:right;
+    margin-top: 40px;
+    margin-left:100px;
+  }
+
+.coret {
+    max-width: 100%;
+    height: auto;
+}
+
+.kantin{
+    text-align: center;
+    word-spacing: 15px;
+    display:grid;
+    padding: 0 48px 48px 48px;
+    margin:16% 8% ;
+}
+
+.greenroof {
+  color: #ffffff;
+  background-color:rgb(27, 27, 27) ;
+  display:grid;
+  grid-template-columns: 66% auto;
+  padding: 0 48px 48px 48px;
+  align-items: center;
+}
+
+.gr{
+  width:110%;
+  height: auto;
+  float:right;
+}
+.text3 {
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+/* halaman sejarah */
+a {
+  display: block;
+  color:blanchedalmond ;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+a:hover:not(.sejarah) {
+  color: #7c7b75;
+}
+.contentsejarah {
+  display:grid;
+  padding: 0 48px 48px 48px;
+}
+.text2 {
+margin: 0 64px;
+font-size: 18px;
+display: flex;
+align-items: center;
+}
+
+/*halaman jurusan */
+.contentjurusan{
+  display:grid;
+  padding: 0 48px 48px 48px;
+}
+
+.text3 {
+margin: 0 64px;
+font-size: 18px;
+display: flex;
+align-items: center;
+}
+
+h1 {
+margin-top: 0;
+}
+
+#tag {
+margin-top: 0;
+margin-bottom: 24px;
+letter-spacing: 3px;
+}
+
+/*content 2*/
+.content2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 300px;
+  background-color: white;
+  padding: 0 12%;
+  background-color: rgb(27, 27, 27);
+}
+
+.card {
+  background-color: #808386;
+  transition: 0.3s;
+  width: 300px;
+  min-height: 300px;
+  padding: 32px;
+  margin: 81px 0;
+  text-align: center;
+}
+/*sejarah dan jurusan */
+.card:hover {
+  background-color: #fbcb7b;
+}
+.sejarah-jurusan{
+  background-color: rgb(27, 27, 27);
+}
+
+/* alamat */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+.ending{
+ max-width: 100%;
+ }
+
+.footer-main {
+  background-color:rgb(27, 27, 27);
+  padding: 24px 60px;
+  color: white;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 100%;
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  .footer-grid {
+    padding-left: 20px;
+  }
+}
